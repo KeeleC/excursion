@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
 
 h1,
+h2,
  p {
     font-family: "Open Sans";
     
@@ -11,10 +12,16 @@ header {
  width: 100%;
 }
 
-h1 {
+h1,
+h2 {
 
     font-size: 30px;
     color: white;
+    text-align: center;
+}
+
+main p {
+    color: gray;
     text-align: center;
 }
 
@@ -22,8 +29,51 @@ header p {
     color: aquamarine;
     text-decoration: underline;
     text-align: center;
+    margin: auto;
+    padding-bottom: 30px;
 }
 
 main {
     background-color: black;
+    margin: auto;
+    
+}
+
+video {
+    display: block;
+    margin: auto;
+}
+
+.campImage img{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.icon img {
+    width: 5%;
+    display: block;
+    margin-left: auto;
+    margin-top: 40px;
+    margin-right: auto;
+}
+
+.icon a {
+    color: aquamarine;
+    text-decoration: underline;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 30px;
+    margin: auto;
+    padding: auto;
+}
+
+footer p {
+    background-color: black;
+    color: gray;
+    text-align: right;
+    margin: auto;
+    padding: auto;
 }
